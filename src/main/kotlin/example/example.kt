@@ -8,7 +8,7 @@ import org.models.PlacemarkModel.PlacemarkModel
 private val logger = KotlinLogging.logger {}
 
 var placemark = PlacemarkModel()
-
+var placemark = PlacemarkModel()
 fun main(args: Array<String>) {
     logger.info { "Launching Placemark Console App" }
     println("Placemark Kotlin App Version 2.0")
